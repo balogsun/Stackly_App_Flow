@@ -1,5 +1,3 @@
-Here's the reprinted version of the Stackly description:
-
 ## Stackly: Real-Time Client-Contractor Collaboration Platform
 
 Stackly is a cutting-edge app that empowers businesses and contractors to communicate and collaborate with their clients in real-time, streamlining service delivery and enhancing customer satisfaction.
