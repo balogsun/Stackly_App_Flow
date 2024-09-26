@@ -1,12 +1,15 @@
-import firebase from "firebase"
+import firebase from "firebase" //
+import "firebase/firestore";  // Import Firestore
+import "firebase/auth";  // Import Firebase Auth
+import "firebase/storage";  // Import Firebase Storage if needed
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyCDF70YhkQKaaHrkUT4u6qfIbhePKfEeHo",
-  authDomain: "stackly-2a177.firebaseapp.com",
-  projectId: "stackly-2a177",
-  storageBucket: "stackly-2a177.appspot.com",
-  messagingSenderId: "423644792364",
-  appId: "1:423644792364:web:baf023c31fb5f9554e3389"
+  apiKey: "AIzaSyDETp3QDfp6Xe48Z8ZX5Mev3F2tjEaSHGc",
+  authDomain: "stackly-app.firebaseapp.com",
+  projectId: "stackly-app",
+  storageBucket: "stackly-app.appspot.com",
+  messagingSenderId: "508832644959",
+  appId: "1:508832644959:web:3690f8b16e38a1c62c40ea"
 });
 
 const db = firebaseApp.firestore()

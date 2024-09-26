@@ -22,7 +22,7 @@ function Login(props) {
       <div className="logincover">
         <div className="loginbgcover"></div>
         <div className="logincoverinner"></div>
-        <h3>Work intelligently with <br/><span>Stackly</span></h3>
+        <h3>Work intelligently with <br/><span>Oluwaseun</span></h3>
         <h6>Create an account to get started.</h6>
         <div className="spacer"></div>
         <div className="loginbtndiv">
