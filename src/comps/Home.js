@@ -120,11 +120,11 @@ function Home() {
     }) 
     let time = new Date().getHours()
     if(time >= 0 && time < 12) 
-      setDaytime('Morning') 
+      setDaytime('Ekaaro') 
     else if(time >= 12 && time <=17)
-      setDaytime('Afternoon')
+      setDaytime('Ekaasan')
     else  
-      setDaytime('Evening') 
+      setDaytime('EkuIrole') 
   },[]) 
     
   return ( 
@@ -206,7 +206,7 @@ function Home() {
         </div>
       </div>
 
-       <Title title="Home | Stackly App - Realtime client & contractor collaboration platform"/>
+       <Title title="Home | Seun's App - collaboration platform"/>
     </div>
   )
 }

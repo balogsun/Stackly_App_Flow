@@ -8,7 +8,7 @@ import {db, Fire} from './comps/Fire'
 import firebase from 'firebase'
 import {SendNotif} from './comps/SendNotif'
 import { useBeforeunload } from 'react-beforeunload'
-import DropFiles from './comps/DropFiles'; //
+//import DropFiles from './comps/DropFiles'; //
  
 function App() {
   
